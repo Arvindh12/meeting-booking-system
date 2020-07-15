@@ -1,0 +1,62 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "arvindh",
+      "email": "arvindh@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": 2,
+      "name": "ashwini",
+      "email": "ashwini@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": 3,
+      "name": "ashok",
+      "email": "ashok@gmail.com",
+      "password": "1234"
+    }
+  ],
+  "room": [
+    {
+      "id": 1,
+      "name": "meeting room 1",
+      "booking": [
+        {
+          "date": "2020-07-17",
+          "slot": "11:00-12:00",
+          "user": "arvindh@gmail.com"
+        },
+        {
+          "date": "2020-07-17",
+          "slot": "09:00-10:00",
+          "user": "arvindh@gmail.com"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "meeting room 2",
+      "booking": [
+        {
+          "date": "2020-07-16",
+          "slot": "07:00-08:00",
+          "user": "arvindh@gmail.com"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "meeting room 3",
+      "booking": []
+    },
+    {
+      "id": 4,
+      "name": "meeting room 4",
+      "booking": [
+      ]
+    }
+  ]
+}
